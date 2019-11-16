@@ -1,5 +1,7 @@
-Minimum C# codebase using Mono
+Minimal C# codebase using Mono
 ==============================
+
+Use this codebase as a minimal boilerplate for running quick C# scripts on Linux and OS X (or Windows).
 
 ## Prerequisites
 
