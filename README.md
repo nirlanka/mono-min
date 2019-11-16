@@ -36,7 +36,17 @@ or change `run.sh` to fit this (give permissions for `run.sh` with `chmod +x ./r
 ### Sublime Text 3
 
 1. Create a new build configuration from `Tools > Build System > New Build System...`
-2. Copy content from my [gist](https://gist.github.com/nirlanka/e1cee625e5ece26f4e5f2cd2bb0149fa)
+2. Copy content from my [gist](https://gist.github.com/nirlanka/e1cee625e5ece26f4e5f2cd2bb0149fa) (or use following code:)
+
+Quick run: `Quick CSharp.sublime-build`
+
+```json
+{
+  "selector"  : "source.cs",
+  "cmd"       : "./run.sh",
+  "shell"     : true,
+}
+``` 
 
 ## Thanks!
 
