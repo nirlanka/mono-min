@@ -1,7 +1,10 @@
+using System;
+
 class App
 {
 	static void Main()
 	{
-		One.Print("Hello world!");
+		One.Print("Hello");
+		Console.WriteLine(" World!");
 	}
 }

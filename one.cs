@@ -4,6 +4,6 @@ public class One
 {
 	public static void Print(string s)
 	{
-		Console.WriteLine(s);
+		Console.Write(s);
 	}
 }
